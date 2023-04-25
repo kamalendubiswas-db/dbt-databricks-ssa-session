@@ -1,0 +1,11 @@
+databricks_demo:
+  outputs:
+    dev:
+      catalog: dbt_databricks_demo
+      schema: data_mart
+      host: e2-demo-field-eng.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/ead10bf07050390f
+      threads: 1
+      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
+      type: databricks
+  target: dev
