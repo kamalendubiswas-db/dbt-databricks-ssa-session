@@ -22,7 +22,6 @@ dbt-databricks adapter [in dbt repo](https://github.com/databricks/dbt-databrick
 .
 ├── README.md
 ├── databricks_demo
-│   ├── README.md
 │   ├── analyses
 │   ├── macros
 │   ├── models
