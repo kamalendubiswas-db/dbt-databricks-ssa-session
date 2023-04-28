@@ -37,6 +37,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   databricks_demo:
     # Config indicated by + and applies to all files under models/example/
+    # catalog names can be changed as per the project needs
     gold:
       +catalog: kb_catalog1
       +schema: kb_catalog1_schema
